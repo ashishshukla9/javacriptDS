@@ -22,16 +22,30 @@
 
 // Day -3
 
-const findTotal = (word, char) => {
-    word = word.toLowerCase();
-    char = char.toLowerCase();
-    totalCount = word.split("").reduce((accum, curChar) => {
-        if (curChar === char) {
-            accum++;
-        }
-        return accum;
-    },0)
-   
-    return totalCount;
-}
-console.log(findTotal("MissIssippi", "I"))
+// const findTotal = (word, char) => {
+//     word = word.toLowerCase();
+//     char = char.toLowerCase();
+//     totalCount = word.split("").reduce((accum, curChar) => {
+//         if (curChar === char) {
+//             accum++;
+//         }
+//         return accum;
+//     },0)
+
+//     return totalCount;
+// }
+// console.log(findTotal("MissIssippi", "I"))
+
+// Day - 4 
+
+// const checkTriangleType = (a, b, c) => {
+//     if (a === b && b === c) return "equilaterals";
+//     if (a === b || b === c || a === c) return "isosceles";
+//     return "scalene";
+// }
+// console.log(checkTriangleType(3,3,3))
+// console.log(checkTriangleType(3,4,3))
+// console.log(checkTriangleType(5,8,6))
+
+
+

@@ -4,3 +4,8 @@ Day - 1 Write a function findLongestWord that takes a string as input and  retur
 
 Day - 2 Create to implementing a function generateHash that generates a hash tag from a given input string.
 
+Day -3 Write a function called countChar that takes two parameters : a string and a character to count. the  function should return the number of times the specified character appears in the string.
+
+Day - 4 Write a function called checkTriangleType that takes three parameters respresnting the length of the sides of a trianle. the function should return a string indicating the type of triangle: "equilaterals", "isosceles", or "scalene".
+
+Day -5 Write a function to sort an array of numbers in an ascending order.
