@@ -49,8 +49,22 @@
 
 // Day - 5
 
-const sortAscending = (arr) => {
-    return arr.sort((a, b) => b - a);
+// const sortAscending = (arr) => {
+//     return arr.sort((a, b) => b - a);
+// }
+// console.log(sortAscending([5, 10, 3, 8, 20]));
+
+// Day - 6
+const isPalindrome = (str) => {
+    str = str.toLowerCase();
+    let t_string = str.split("").reverse().join("")
+    console.log(t_string)
+    return str === t_string ? true : false
+    // console.log(str)
+
 }
-console.log(sortAscending([5, 10, 3, 8, 20]));
+
+console.log(isPalindrome("A man, a plan, a canal, panama"));
+console.log(isPalindrome("racecar"));
+console.log(isPalindrome("hello"));
 

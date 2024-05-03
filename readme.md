@@ -9,3 +9,5 @@ Day -3 Write a function called countChar that takes two parameters : a string an
 Day - 4 Write a function called checkTriangleType that takes three parameters respresnting the length of the sides of a trianle. the function should return a string indicating the type of triangle: "equilaterals", "isosceles", or "scalene".
 
 Day -5 Write a function to sort an array of numbers in an ascending order.
+
+Day -6  Write  a function to determine wheather a given string is a palindrom or not. A palindrome is a word, phrase number, or other sequance  of character that  reads the same forward and backward, ignoring space, punctuation, and capitalization.
