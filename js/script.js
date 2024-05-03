@@ -47,5 +47,10 @@
 // console.log(checkTriangleType(3,4,3))
 // console.log(checkTriangleType(5,8,6))
 
+// Day - 5
 
+const sortAscending = (arr) => {
+    return arr.sort((a, b) => b - a);
+}
+console.log(sortAscending([5, 10, 3, 8, 20]));
 
